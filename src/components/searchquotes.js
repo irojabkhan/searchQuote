@@ -19,6 +19,12 @@ function SearchQuote() {
 
   return (
     <div className="container">
+      <div className="search-form">
+        <form>
+          <input type="text" placeholder="Enter your keyword" />
+          <button>Submit</button>
+        </form>
+      </div>
       <div className="quotes">
         {quotes.map(singleQuote => {
           return (

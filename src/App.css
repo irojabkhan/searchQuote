@@ -19,3 +19,37 @@
 .quote p {
   font-style: italic;
 }
+
+.search-form {
+  padding: 150px 0 100px;
+}
+
+.search-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form form input {
+  height: 50px;
+  width: 300px;
+  border: 0;
+  border-radius: 0;
+  background: #f3f3f3;
+  outline: none;
+  padding: 0 20px;
+}
+
+.search-form form button {
+  height: 50px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #333;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  padding: 0 30px;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
